@@ -18,4 +18,20 @@ p {
   position: relative;
   background-color: #4A7998;
   height: 90vh;
+  padding-top: 2%;
+}
+
+.img_wrapper {
+  font-size: 0px;
+
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+img {
+  width: 20%;
+  height: 10%;
+  margin: 0;
 }
