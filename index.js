@@ -1,7 +1,9 @@
 $(function(){
  $(".header").css("display","none");
+ $(".contents").css("display","none");
 });
 
 $(window).on("load",function(){
-  $(".header").delay(1000).slideDown("slow");
+  $(".contents").fadeIn("slow");
+  $(".header").delay(2200).slideDown("slow");
 });
