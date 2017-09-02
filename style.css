@@ -35,3 +35,28 @@ img {
   height: 10%;
   margin: 0;
 }
+
+img.loading-Img {
+  width: 30%;
+  height: 20%;
+}
+
+.loading-Bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #111111;
+  height: 4px;
+  -webkit-transition: all 0.4s linear 0s;
+  transition: all 0.4s linear 0s;
+  width: 0;
+}
+
+.loading-Img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
